@@ -1271,7 +1271,7 @@ export default function Home({ publications }) {
             <h2 className="text-5xl">Download My Resume</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
             <div className="btn-con">
-              <a href="/resume.pdf" download>
+              <a href="/resume2.pdf" download>
                 <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                   <svg
                     className="fill-current w-4 h-4 mr-2"
