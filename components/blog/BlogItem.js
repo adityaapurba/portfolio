@@ -21,6 +21,7 @@ export default function BlogItem({ post }) {
     >
       <div className="w-auto">
         <Image
+          alt="coverimage"
           src={post.coverImage}
           layout="responsive"
           width={1080}

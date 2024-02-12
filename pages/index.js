@@ -1626,34 +1626,34 @@ export default function Home({ publications }) {
   );
 }
 
-/**
- * Method used to fetch data from Hashnode.
- * @param {Object} context
- * @returns props
- */
-export async function getServerSideProps(context) {
-  const res = await fetch("https://api.hashnode.com/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: "32ab9fe7-0331-4efc-bdb8-5a3e0bfdd9b9",
-    },
-    body: JSON.stringify({
-      query:
-        'query {user(username: "danielcranney") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
-    }),
-  });
-  const publications = await res.json();
+// /**
+//  * Method used to fetch data from Hashnode.
+//  * @param {Object} context
+//  * @returns props
+//  */
+// export async function getServerSideProps(context) {
+//   const res = await fetch("https://api.hashnode.com/", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/json",
+//       Authorization: "32ab9fe7-0331-4efc-bdb8-5a3e0bfdd9b9",
+//     },
+//     body: JSON.stringify({
+//       query:
+//         'query {user(username: "danielcranney") {publication {posts(page: 0) {title brief slug coverImage dateAdded}}}}',
+//     }),
+//   });
+//   const publications = await res.json();
 
-  if (!publications) {
-    return {
-      notFound: true,
-    };
-  }
+//   if (!publications) {
+//     return {
+//       notFound: true,
+//     };
+//   }
 
-  return {
-    props: {
-      publications,
-    },
-  };
-}
+//   return {
+//     props: {
+//       publications,
+//     },
+//   };
+// }
