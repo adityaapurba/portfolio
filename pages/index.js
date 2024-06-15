@@ -598,28 +598,29 @@ export default function Home({ publications }) {
                 <p className="w-4/5 text-xl md:w-full">
                   I design and build websites that look good, and work well.
                 </p>
+                
+                <div className="btn-con">
                 <button
-                  className="m-4 btn-brand btn-lg group"
+                  className="mt-4 mr-4 btn-brand btn-lg group"
                   onClick={() => {
                     scrollTo(myWorkRef.current);
                   }}
                 >
                   See my Work
                 </button>
-                <div className="btn-con">
-                <a href="/AdityaApurba__Resume__OnCampus.pdf" download>
-                <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                  <svg
-                    className="fill-current w-4 h-4 mr-2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                  </svg>
-                  <span>Download</span>
-                </button>
-              </a>
-            </div>
+                  <a href="/AdityaApurba__Resume__OnCampus.pdf" download>
+                    <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold px-4 rounded inline-flex items-center h-14">
+                      <svg
+                        className="fill-current w-4 h-4 mr-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                      </svg>
+                      <span>Download</span>
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </main>
@@ -792,7 +793,7 @@ export default function Home({ publications }) {
                 textTransform={"normal-case"}
                 fixedHeight={"h-28"}
               />
-              
+
               {/* TypeScript */}
               <Icon
                 IconType={TypeScript}
@@ -1124,7 +1125,6 @@ export default function Home({ publications }) {
                       textTransform={"uppercase"}
                       fixedHeight={"h-auto"}
                     />
-
                   </>
                 }
               />
@@ -1189,7 +1189,6 @@ export default function Home({ publications }) {
                       textTransform={"uppercase"}
                       fixedHeight={"h-auto"}
                     />
-
                   </>
                 }
               />
