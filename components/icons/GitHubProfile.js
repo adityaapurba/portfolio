@@ -4,7 +4,7 @@ const GitHubProfile = ({ marginBottom }) => {
   return (
     <div className={`w-8 h-8 ${marginBottom}`}>
       <a
-        href="https://github.com/zorothreesword"
+        href="https://github.com/adityaapurba"
         target="_blank"
         rel="noreferrer"
       >

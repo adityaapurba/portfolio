@@ -599,13 +599,27 @@ export default function Home({ publications }) {
                   I design and build websites that look good, and work well.
                 </p>
                 <button
-                  className="mt-4 btn-brand btn-lg group"
+                  className="m-4 btn-brand btn-lg group"
                   onClick={() => {
                     scrollTo(myWorkRef.current);
                   }}
                 >
                   See my Work
                 </button>
+                <div className="btn-con">
+                <a href="/AdityaApurba__Resume__OnCampus.pdf" download>
+                <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                  <svg
+                    className="fill-current w-4 h-4 mr-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                  </svg>
+                  <span>Download</span>
+                </button>
+              </a>
+            </div>
               </div>
             </div>
           </main>
@@ -1076,7 +1090,7 @@ export default function Home({ publications }) {
                 imgHeight={"666"}
                 imgSrc={"/projects/swiftTracker.png"}
                 liveLink={null}
-                repoLink={"https://github.com/zorothreesword/SwiftTrack"}
+                repoLink={"https://github.com/adityaapurba/SwiftTrack"}
                 stack={
                   <>
                     <Icon
@@ -1125,7 +1139,7 @@ export default function Home({ publications }) {
                 imgHeight={"666"}
                 imgSrc={"/projects/pixelPulse.png"}
                 liveLink={"https://pixel-pulse-delta.vercel.app/"}
-                repoLink={"https://github.com/zorothreesword/Pixel-Pulse"}
+                repoLink={"https://github.com/adityaapurba/Pixel-Pulse"}
                 stack={
                   <>
                     <Icon
@@ -1190,7 +1204,7 @@ export default function Home({ publications }) {
                 imgHeight={"666"}
                 imgSrc={"/projects/AI companion.png"}
                 liveLink={null}
-                repoLink={"https://github.com/zorothreesword/AI-PersonaPal"}
+                repoLink={"https://github.com/adityaapurba/AI-PersonaPal"}
                 stack={
                   <>
                     <Icon
@@ -1271,7 +1285,7 @@ export default function Home({ publications }) {
             <h2 className="text-5xl">Download My Resume</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
             <div className="btn-con">
-              <a href="/Resume3.pdf" download>
+              <a href="/AdityaApurba__Resume__OnCampus.pdf" download>
                 <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                   <svg
                     className="fill-current w-4 h-4 mr-2"
