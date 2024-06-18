@@ -1080,7 +1080,122 @@ export default function Home({ publications }) {
                   </>
                 }
               />
-              {/* Project Two */}
+
+              {/* Project two */}
+              <FeaturedProjectCard
+                title={"PinWit"}
+                status={"Map. Pin. Review. Share."}
+                description={`Allow users to pinpoint locations, leave reviews, and provide ratings`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row-reverse`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/PinWit.png"}
+                liveLink={null}
+                repoLink={"https://github.com/adityaapurba/PinWit"}
+                stack={
+                  <>
+                    <Icon
+                      IconType={MongoDb}
+                      title="MongoDb"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={Express}
+                      title="Express"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={ReactJs}
+                      title="React"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+
+                    <Icon
+                      IconType={NodeJs}
+                      title="Nodejs"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+                  </>
+                }
+              />
+              {/* Project Three */}
+              <FeaturedProjectCard
+                title={"CodeMetrics"}
+                status={"A Competitve Programming Dashboard"}
+                description={` Developed a data visualization (Dynamic graph and pie chart using Chart.JS) dashboard for analyzing Codeforces profiles, enabling users to gain insights and
+improve their performance in competitive programming.`}
+                float={`right-0`}
+                flexDirection={`flex-col lg:flex-row`}
+                imgWidth={"1366"}
+                imgHeight={"666"}
+                imgSrc={"/projects/CodeMetrics.png"}
+                liveLink={"https://codemetrics.vercel.app/"}
+                repoLink={"https://github.com/adityaapurba/Code-Metrics"}
+                stack={
+                  <>
+                    <Icon
+                      IconType={ReactJs}
+                      title="React"
+                      columnSizing={"w-auto"}
+                      width={"w-6"}
+                      height={"h-6"}
+                      flexDirection={"flex-row"}
+                      padding={"p-0"}
+                      titleMargins={"my-0 ml-1"}
+                      titleSize={"text-sm"}
+                      marginBottom={"mb-4"}
+                      marginRight={"mr-3"}
+                      textTransform={"uppercase"}
+                      fixedHeight={"h-auto"}
+                    />
+                  </>
+                }
+              />
+
+              {/* Project four */}
               <FeaturedProjectCard
                 title={"SwiftTracker"}
                 status={"Issue Manager"}
@@ -1262,7 +1377,7 @@ export default function Home({ publications }) {
             <h2 className="text-4xl text-center">Other Projects</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 mx-auto border-0"></hr>
             <p className="mb-16 text-lg text-center">
-              Check out some of the projects I&apos;ve been a part of...
+              Check out some of the other projects I&apos;ve developed...
             </p>
 
             {/* Other Projects Container */}
