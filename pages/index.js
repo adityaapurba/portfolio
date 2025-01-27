@@ -344,7 +344,7 @@ export default function Home({ publications }) {
                 </li>
                 <li className="z-40 block py-2 mt-6 list-none lg:inline-block">
                   <a
-                    href={`mailto:danielcranney@gmail.com`}
+                    href={`mailto:adityasapurba@gmail.com`}
                     className="text-lg btn-brand btn-lg group"
                   >
                     CollabConnect
@@ -598,17 +598,17 @@ export default function Home({ publications }) {
                 <p className="w-4/5 text-xl md:w-full">
                   I design and build websites that look good, and work well.
                 </p>
-                
+
                 <div className="btn-con">
-                <button
-                  className="mt-4 mr-4 btn-brand btn-lg group"
-                  onClick={() => {
-                    scrollTo(myWorkRef.current);
-                  }}
-                >
-                  See my Work
-                </button>
-                  <a href="/AdityaApurba__Resume__OnCampus.pdf" download>
+                  <button
+                    className="mt-4 mr-4 btn-brand btn-lg group"
+                    onClick={() => {
+                      scrollTo(myWorkRef.current);
+                    }}
+                  >
+                    See my Work
+                  </button>
+                  <a href="/Aditya_Apurba_Resume.pdf" download>
                     <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold px-4 rounded inline-flex items-center h-14">
                       <svg
                         className="fill-current w-4 h-4 mr-2"
@@ -1399,7 +1399,7 @@ improve their performance in competitive programming.`}
             <h2 className="text-5xl">Download My Resume</h2>
             <hr className="bg-brand w-40 h-1.5 mt-4 mb-6 border-0"></hr>
             <div className="btn-con">
-              <a href="/AdityaApurba__Resume__OnCampus.pdf" download>
+              <a href="/Aditya_Apurba_Resume.pdf" download>
                 <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                   <svg
                     className="fill-current w-4 h-4 mr-2"
